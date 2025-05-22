@@ -6,6 +6,7 @@ BEGIN TRAN
     SAVE TRAN SavePoint1;
 
     INSERT INTO Osoba (Ime) VALUES ('Jelena');
+	SAVE TRAN SavePoint2;
 ROLLBACK TRAN
 
 BEGIN TRAN
